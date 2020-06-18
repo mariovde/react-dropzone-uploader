@@ -515,6 +515,7 @@ class Dropzone extends React.Component<IDropzoneProps, { active: boolean; dragge
     }
 
     const xhr = new XMLHttpRequest()
+    xhr.withCredentials = true
     const formData = new FormData()
     xhr.open(method, url, true)
 
