@@ -6,8 +6,7 @@
 /website/i18n
 /website/build
 
-# production
-/dist
+
 
 # jest
 /coverage
